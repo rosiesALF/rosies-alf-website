@@ -17,7 +17,7 @@ const playFair = Playfair_Display({
 });
 
 export const metadata = {
-  // metadataBase: new URL("https://rosiesassistedliving.com"),
+  metadataBase: new URL("https://www.rosiesassistedliving.com"),
   title: "Rosie's Assisted Living | Exceptional Care, Meaningful Living",
   description: "A home designed for the well-being and peace of mind of your loved ones. Personalized care in a warm and secure environment.",
   keywords: [
@@ -34,11 +34,11 @@ export const metadata = {
   openGraph: {
     title: "Rosie's Assisted Living | Exceptional Care, Meaningful Living",
     description: "A home designed for the well-being and peace of mind of your loved ones. Personalized care in a warm and secure environment.",
-    // url: "https://rosiesassistedliving.com",
+    url: "https://www.rosiesassistedliving.com",
     siteName: "Rosie's Assisted Living",
     images: [
       {
-        url: "/openGraph.jpg",
+        url: "https://www.rosiesassistedliving.com/openGraph.jpg",
         width: 1200,
         height: 630,
         alt: "Rosie's Assisted Living facility",
@@ -47,9 +47,9 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
-  // alternates: {
-  //   canonical: "https://rosiesassistedliving.com",
-  // },
+  alternates: {
+    canonical: "https://www.rosiesassistedliving.com",
+  },
   robots: {
     index: true,
     follow: true,
