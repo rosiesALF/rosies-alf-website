@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export function PrimaryButton({ children = 'Scedule a Visit', href = '/schedule-a-visit', theme = 'light', fullWidth = false }) {
+export function PrimaryButton({ children = 'Schedule a Visit', href = '/schedule-a-visit', theme = 'light', fullWidth = false }) {
     if (theme === 'light') {
         return (
             <Link href={href} className={`px-6 py-3 transition-colors min-h-[40px] grid place-items-center font-bold rounded-xl ${fullWidth ? 'w-full' : 'w-fit'} bg-champagne text-navyBlue text-base text-nowrap transition-colors hover:bg-richGold shadow-lg shadow-champagne/20`}>

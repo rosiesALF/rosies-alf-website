@@ -161,7 +161,7 @@ const address = [
         icon: <AddressIcon/>
     },
     {
-        label: '+1 623 241 1681',
+        label: '+1 (562) 441-0288',
         icon: <PhoneIcon/>
     },
     {
