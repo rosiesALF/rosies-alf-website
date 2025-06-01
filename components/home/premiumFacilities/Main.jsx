@@ -2,8 +2,6 @@
 
 import { SectionLayout } from "@/components/common/SectionLayout";
 import { Title } from "@/components/common/Typography";
-import Image from "next/image";
-import couple from './assets/couple.webp'
 import { animationProps } from "@/const/animation";
 import { motion } from "framer-motion";
 import { Carousel } from "./Carousel";

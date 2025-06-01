@@ -2,7 +2,7 @@
 
 import { SectionLayout } from "@/components/common/SectionLayout";
 import Image from "next/image";
-import image1 from './assets/image1.webp'
+import image1 from './assets/building.webp'
 import { motion } from "framer-motion";
 import { animationProps } from "@/const/animation";
 import { Title } from "@/components/common/Typography";

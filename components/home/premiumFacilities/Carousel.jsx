@@ -2,15 +2,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
-import image1 from './assets/swiper.webp'
-import image2 from './assets/swiper.webp'
-import image3 from './assets/swiper.webp'
+import backyard from './assets/backyard.webp'
+import table from './assets/table.webp'
+import bed from './assets/bed.webp'
+import chimene from './assets/chimene.webp'
+import outside from './assets/outside.webp'
+import kitchen from './assets/kitchen.webp'
 import 'swiper/css';
 
 const images = [
-    image1,
-    image2,
-    image3,
+    backyard,
+    table,
+    kitchen,
+    bed,
+    chimene,
+    outside,
 ];
 
 export function Carousel() {
